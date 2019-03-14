@@ -87,30 +87,96 @@ function callSendAPI(sender_psid, response) {
 
     // Send the HTTP request to the Messenger Platform
     request({
-        "uri": "https://graph.facebook.com/v2.6/me/messages",
-        "qs": {"access_token": "EAAQJjDc2FWYBAJY91toWmOsZCKGK5k7bSCCkEwvgC2ybmiizwZAMNwSsIMKP5HRcLK4gkIcTUR5QL5Hv1BRL0ptWxFGXVQpjA1XP1jva9jeAEhmTQ3ZA5o9ZCdVnDZByg2XqZCloFv6AAglFZAQH535oiknBbM8F6GfGy1U9g7jWgZDZD"},
+        "uri": "https://graph.facebook.com/v3.2/me/messages",
+        "qs": {"access_token": {PAGE_ACCESS_TOKEN}},
         "method": "POST",
         "json": request_body
     }, (err, res, body) => {
-        if(
-    !err
-)
-    {
-        console.log('message sent!')
-    }
-else
-    {
-        console.error("Unable to send message:" + err);
-    }
-})
+        if (
+            !err
+        ) {
+            console.log('message sent!')
+        }
+        else {
+            console.error("Unable to send message:" + err);
+        }
+    })
     ;
 }
+
+/*const messageWebhook = require('./message-webhook');
+app.post('/', messageWebhook);*/
 
 app.post('/webhook', function (req, res) {
 
     // Parse the request body from the POST
     let body = req.body;
+    const fetch = require('node-fetch');
 
+    if (body.object.get_started) {
+        fetch(
+            `https://graph.facebook.com/v3.2/me/messages?access_token=${PAGE_ACCESS_TOKEN}`,
+            {
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                method: 'POST',
+                body: {
+                    'get_started': {
+                        "payload": "<postback_payload>"
+                    }
+                }
+            }
+        )} else {
+        res.sendStatus(404);
+    }
+    /*const {PAGE_ACCESS_TOKEN} = process.env;
+    const fetch = require('node-fetch');
+
+    const sendTextMessage = (userId, text) => {
+        return fetch(
+            `https://graph.facebook.com/v2.6/me/messages?access_token=${PAGE_ACCESS_TOKEN}`,
+            {
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                method: 'POST',
+                body: JSON.stringify({
+                    messaging_type: 'RESPONSE',
+                    recipient: {
+                        id: userId,
+                    },
+                    message: 'Welcome to Chat Bot',
+                }),
+            }
+        );
+    };
+
+    module.exports = (event) => {
+        const userId = event.sender.id;
+        const message = event.message.text;
+
+        const request = {
+            session: sessionPath,
+            queryInput: {
+                text: {
+                    text: message,
+                    languageCode: languageCode,
+                },
+            },
+        };
+    };
+    if (req.body.object === 'page') {
+        req.body.entry.forEach(entry => {
+            entry.messaging.forEach(event => {
+                if (event.message && event.message.text) {
+                    processMessage(event);
+                }
+            });
+        });
+
+        res.status(200).end();
+    }*/
 // Check the webhook event is from a Page subscription
     if (body.object === 'page') {
 
@@ -142,12 +208,13 @@ app.post('/webhook', function (req, res) {
         // Return a '404 Not Found' if event is not from a page subscription
         res.sendStatus(404);
     }
-
 });
+
+/*const verifyWebhook = require('./verify-webhook');
+app.get('/', verifyWebhook);*/
 
 app.get('/webhook', function (req, res) {
 
-    /** UPDATE YOUR VERIFY TOKEN **/
     const VERIFY_TOKEN = "webhook_oleksiidp_chatbot";
 
 // Parse params from the webhook verification request
@@ -169,5 +236,7 @@ app.get('/webhook', function (req, res) {
             // Responds with '403 Forbidden' if verify tokens do not match
             res.sendStatus(403);
         }
+    } else {
+        res.sendStatus(403)
     }
 });
