@@ -2,10 +2,85 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b29d202-7672-4421-8a38-ba3792b6f6c9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/botkit-starter-facebook" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.env" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/express_webserver.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/routes/incoming_webhooks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/thread_settings.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/message-webhook.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/asap/CHANGES.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/asap/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/asap/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/asap/asap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/asap/browser-asap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/asap/browser-raw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/asap/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/asap/raw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/botkit-studio-sdk/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/botkit-studio-sdk/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/botkit-studio-sdk/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/botkit-studio-sdk/lib/sdk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/botkit-studio-sdk/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/node-fetch/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/node-fetch/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/node-fetch/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/node-fetch/browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/node-fetch/lib/index.es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/node-fetch/lib/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/node-fetch/lib/index.mjs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/node-fetch/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/build.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/domains/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/domains/done.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/domains/es6-extensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/domains/finally.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/domains/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/domains/node-extensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/domains/rejection-tracking.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/domains/synchronous.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/index.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/index.js.flow" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/lib/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/lib/done.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/lib/es6-extensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/lib/finally.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/lib/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/lib/node-extensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/lib/rejection-tracking.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/lib/synchronous.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/polyfill-done.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/polyfill.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/setimmediate/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/setimmediate/done.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/setimmediate/es6-extensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/setimmediate/finally.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/setimmediate/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/setimmediate/node-extensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/setimmediate/rejection-tracking.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/setimmediate/synchronous.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/src/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/src/done.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/src/es6-extensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/src/finally.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/src/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/src/node-extensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/src/rejection-tracking.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/promise/src/synchronous.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/responses/responses.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample_conversations.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/process-message.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/verify-webhook.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -309,12 +384,20 @@
       <workItem from="1552297184721" duration="681000" />
       <workItem from="1552388640424" duration="8933000" />
       <workItem from="1552476283929" duration="5119000" />
-      <workItem from="1552568941067" duration="3023000" />
+      <workItem from="1552568941067" duration="3295000" />
     </task>
+    <task id="LOCAL-00001" summary="14/03 - all test and unnecessary files.">
+      <created>1552572263221</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552572263222</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53929000" />
+    <option name="totallyTimeSpent" value="54201000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -322,8 +405,8 @@
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13645834" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33261105" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31527627" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31527627" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -343,6 +426,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="14/03 - all test and unnecessary files." />
+    <option name="LAST_COMMIT_MESSAGE" value="14/03 - all test and unnecessary files." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
