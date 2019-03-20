@@ -75,6 +75,8 @@ function handlePostback(sender_psid, received_postback) {
     callSendAPI(sender_psid, response);
 }
 
+//sample_get_started_payload
+
 // Sends response messages via the Send API
 function callSendAPI(sender_psid, response) {
     // Construct the message body
